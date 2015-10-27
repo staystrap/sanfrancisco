@@ -1,0 +1,38 @@
+$blurRadius: 2px;
+
+.top-image {
+  position: relative;
+  width: 100%;
+  max-height: 20rem;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur($blurRadius);
+
+  }
+
+  .image-title {
+    position: absolute;
+    bottom: 1rem;
+    right: 3rem;
+    padding: 10px;
+
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 200;
+  }
+}
+
+h1 {
+  font-size: 2.5rem !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+}

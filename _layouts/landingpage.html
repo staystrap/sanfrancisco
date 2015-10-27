@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<main>
+  <div class="section no-pad-top">
+    <div class="top-image">
+      <img src="img/city.jpg">
+      <span class="image-title">{{ page.title }}</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center {{ site.city_color2}}">{{ page.leftvalue }}</h2>
+            <h5 class="center">{{ page.leftvalue_type }}</h5>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center {{ site.city_color2}}">{{ page.centervalue }}</h2>
+            <h5 class="center">{{ page.centervalue_type }}</h5>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center {{ site.city_color2}}">{{ page.rightvalue }}</h2>
+            <h5 class="center">{{ page.rightvalue_type }}</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col m12">
+          <p>{{ content }}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>

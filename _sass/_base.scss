@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Adam";
+  src: url(../fonts/ADAM.CG.otf) format("truetype");
+}
+
+header, main, footer {
+  padding-left: $sidebar-width;
+}
+
+html, body, main, .slider, .slides {
+  height: 100% !important;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+

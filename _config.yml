@@ -1,0 +1,11 @@
+# change this to the name of the repository and have it in all lower caps
+baseurl: "/sanfrancisco"
+
+# change this to the name of your city
+city: San Francisco
+
+# color names taken from http://materializecss.com/color.html
+# append '-text' to color2 names and prepend accent/darken with 'text-'
+city_color:  cyan lighten-4
+city_color2: grey-text text-darken-3
+logo_color: black # either black or white
